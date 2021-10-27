@@ -1,0 +1,87 @@
+html{
+  /*hides the x axis scroll*/
+  overflow-x: hidden
+}
+h1{
+  text-align: center;
+}
+
+.skill-list{
+ position: relative;
+ top: -30px;
+}
+
+body{
+  background:linear-gradient(45deg,aqua,lightBlue,blue);
+}
+
+
+table{
+  float:left;
+  font-size: 12px;
+  font-weight: bold;
+  position: relative;
+  top: -55px;
+}
+
+
+
+
+.education{
+  float: center;
+  clear: both;
+
+
+  /*
+  was going to use this piece of css code but caused problems in screen size scaling --
+  position: relative;
+  right: -1200px;
+  width: auto;
+  */
+}
+.myskills{
+  float: left;
+  position: relative;
+  top: -15px;
+
+
+
+}
+td,th{
+  border: 2px  solid black;
+  padding: 25px;
+}
+td{
+  /*aligns text to center*/
+  text-align: center;
+  }
+
+  .mikey{
+    width:100px;
+    height:100px;
+  }
+
+@media screen and (max-width: 769px) {
+  #wrapper
+{
+  width: 95%
+}
+.mainbody{
+  width: 65%;
+}
+
+body{
+      background:linear-gradient(45deg,red,orange,yellow);
+}
+
+
+@media screen and (max-width:600px) {
+    .mainbody{
+      width:auto;
+      float:none;
+      height: 100px;
+  }
+  body{
+    /*changes color gradient transition*/
+      background:linear-gradient(90deg,Pink,orange);
+  }
